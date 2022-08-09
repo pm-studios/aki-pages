@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1be6311f905f3a789f46",
+    "revision": "c849837c98a0ab980c55",
     "url": "/aki-pages/static/css/main.5a7776cc.chunk.css"
   },
   {
-    "revision": "1be6311f905f3a789f46",
-    "url": "/aki-pages/static/js/main.1be6311f.chunk.js"
+    "revision": "c849837c98a0ab980c55",
+    "url": "/aki-pages/static/js/main.c849837c.chunk.js"
   },
   {
     "revision": "b613cb6236948eeb1814",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/aki-pages/static/js/runtime~main.b589ddbd.js"
   },
   {
-    "revision": "1fa30efbb01a7743e030279420e247ba",
+    "revision": "a4391814715276688b46fd1357edd4bf",
     "url": "/aki-pages/index.html"
   }
 ];
