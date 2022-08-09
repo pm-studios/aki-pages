@@ -1,0 +1,30 @@
+.overall2 {
+	width: 320px;
+	height: auto
+}
+
+.overall2 h2 {
+	width: 320px;
+	margin-bottom: 6px;
+}
+
+.overall-container {
+	width: 320px;
+	height: 110px;
+	border-radius: 8px;
+	background-color: #e7e6e9;
+
+	justify-content: left;
+    flex-direction: row;
+	display: flex;
+}
+
+.overall2 .overall-container img {
+	width: 60px;
+	height: 78px;
+	margin: 16px 0 0 16px;
+}
+
+.overall2 .overall-container p {
+	width: 100px;
+}

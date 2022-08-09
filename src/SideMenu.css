@@ -1,0 +1,43 @@
+.sideMenu {
+    width:220px; 
+    height:100%; 
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.sideMenu h1 {
+    width: 86px;
+    height: 20px;
+    color: #0f0a28;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sideMenu .container{
+    padding: 16px 20px;
+    text-align: left;
+}
+
+.sideMenu .container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 7px 0;    
+
+    color: #575368;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sideMenu .container .textmenu_item_active {
+	color: #46d7aa;
+	font-weight: 700;
+}
+
+.sideMenu .container .textmenu_item_deactive {
+	color: #575368;
+	font-weight: 400;
+}

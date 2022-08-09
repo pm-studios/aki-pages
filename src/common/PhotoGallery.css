@@ -1,0 +1,22 @@
+.photoGallery {
+	margin-right: 4px;
+    overflow: hidden;
+}
+
+.photoGallery .thumbnail {
+	display: block;
+	float: left;
+	line-height: 0;
+	margin-right: 6px;
+	margin-bottom: 6px;
+    overflow: hidden;
+    width: 266px;
+    height: 150px;    
+}
+
+.photoGallery .thumbnail img {
+	height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-color: lightgray;
+}

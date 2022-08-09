@@ -1,0 +1,61 @@
+.genreCard {
+    width: 740px;
+    height: 100px;
+    background-color: white;
+    border-radius: 8px 8px;
+    margin-bottom: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.genreCard-banner {
+    width: 176px;
+    height: 136px;
+    overflow: hidden;    
+}
+
+.genreCard-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.genreCard-info {
+    height: 100%;
+    width: 370px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.genreCard-info h1 {
+    color: #0f0a28;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+
+    width: 380px;
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+}
+
+.genreCard-info p {
+    color: #575368;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 1px;
+
+    width: 380px;
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+}
+
+.genreCard-info .genreCard-tag {
+    color: #1496bc;
+}
+
+.genreCard .priceTag .info {
+    margin: 52px 0 0 29px;
+}

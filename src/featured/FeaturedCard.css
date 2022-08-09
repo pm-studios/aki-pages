@@ -1,0 +1,78 @@
+.featuredCard {
+    width: 242px;
+    height: 136px;
+    background-color: lightgray;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.featuredCard .banner {
+    width: 100%;
+    height: 136px;
+    overflow: hidden;    
+}
+
+.featuredCard .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.featuredCard .info {
+    position: absolute;
+    margin: 104px 0 0 92px;
+    width: 52px;
+    height: 24px;
+    border-radius: 20px 0 0 20px;
+    background-color: #46d7aa;
+
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.featuredCard .info p {
+    color: #0f0a28;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.featuredCard .price {
+    position: absolute;
+    top: 0px;
+    left: 52px;
+    width: 96px;
+    height: 100%;
+    background-color: #0f0a28;
+
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.featuredCard .price p {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: right;
+    margin-right: 8px;
+}
+
+.featuredCard .price .sub {
+    color: #b7b5be;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 4px;
+}
+
+.featuredCard .price .sub:after {
+    position: absolute;
+    content:"";
+    width: 45px;
+    margin-top: 9px;
+    margin-left: -41px;
+    border-top: 1px solid #b7b5be;
+}

@@ -1,0 +1,254 @@
+.gameDetail {		
+	width: 100%;
+	height: auto;	
+	padding-top: 66px;
+	background-color: white;
+
+	color: #575368;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.gameDetail p {
+	color: #575368;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.gameDetail h1 {
+	color: #0f0a28;
+	font-family: Poppins;
+    font-size: 38px;
+	font-weight: 600;
+}
+
+.gameDetail h2 {
+	color: #0f0a28;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.gameDetail h3 {
+	color: #0f0a28;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.gameDetail .banner {		
+	width:100%;
+	height:424px;
+	overflow: hidden;
+	background-color: black
+}
+
+.gameDetail .banner img {
+    width: 100%;
+    height: 100%;
+	object-fit: cover;
+	opacity: 0.8;
+}
+
+.gameDetail .container {
+	position: relative;
+	top: -392px;
+	width: 930px;
+	margin: auto;
+}
+
+.gameDetail .cover {
+    width: 186px;
+    height: 234px;
+	overflow: hidden;
+	float: left;
+}
+
+.gameDetail .cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+}
+
+.gameDetail .container .video {
+	width: auto;
+}
+
+.gameDetail .infoGroup {
+	width: 940px;
+	margin-top: 40px;
+	height: auto;
+	overflow:auto;
+}
+
+.gameDetail .infoLeft {
+	width: 604px;
+	height: auto;
+	float: left;
+}
+
+.gameDetail .infoLeft h1 {
+    width: 598px;
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+}
+
+.gameDetail .infoLeft .subtitle {
+	color: #575368;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+
+	width: 598px;
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+}
+
+.gameDetail .infoLeft .website {
+	height: 16px;
+}
+
+.gameDetail .infoLeft .website a {
+	color: #1496be;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	height: 100%;
+}
+
+.gameDetail .infoLeft .website img {
+	margin: 1px 0 0 3px;
+	width: 16px;
+	height: 16px;
+}
+
+.gameDetail .infoLeft .rating {
+	color: #1496be;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.gameDetail .infoLeft .tag {
+	width: 598px;
+	height: auto;
+	margin: 16px 0 16px 0;
+}
+
+.gameDetail .infoLeft .tag p {
+	color: #1496be;
+}
+
+.gameDetail .infoLeft span {
+	color: #1496be;
+}
+
+.gameDetail .infoLeft a {
+	color: #1496be;
+}
+
+.gameDetail .infoLeft a:link {
+	text-decoration: none;
+}
+  
+.gameDetail .infoLeft a:visited {
+	text-decoration: none;
+}
+  
+.gameDetail .infoLeft a:hover {
+	text-decoration: underline;
+}
+  
+.gameDetail .infoLeft a:active {
+	text-decoration: none;
+}
+
+
+.gameDetail .infoRight {
+	width: 320px;
+	height: auto;
+	float: right;
+}
+
+.gameDetail .infoRight h2 {
+	color: #0f0a28;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.gameDetail .infoRight .priceGroup {
+	width: 320px;
+	height: 270px;
+	border-radius: 8px;
+	background-color: #def3f8;
+}
+
+.gameDetail .infoRight .priceGroup .inner {
+}
+
+.gameDetail .infoRight .priceGroup .buy {
+	margin-top: 140px;
+	width: 290px;
+	height: 64px;
+	border-radius: 8px;
+	background-image: linear-gradient(180deg, #46d7aa 0%, #30a799 100%);
+
+	justify-content: center;
+    flex-direction: column;
+	display: flex;
+
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 28px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.gameDetail .divider {
+	width: 100%;
+	height: 2px;
+	background-color: #e7e6e9;
+}
+
+
+.gameDetail .priceTag .info {
+    margin: 14px 0 0 0;
+    width: 124px;
+    height: 70px;
+    border-radius: 8px 0 0 8px;
+}
+
+.gameDetail .priceTag .info p {
+    font-size: 28px;
+}
+
+.gameDetail .priceTag .price {
+    left: 124px;
+	width: 166px;
+	border-radius: 0 8px 8px 0;
+}
+
+.gameDetail .priceTag .price p {
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+.gameDetail .priceTag .price .sub {
+    font-size: 20px;
+    height: 30px;
+}
+
+.gameDetail .priceTag .price .sub:after {
+    position: absolute;
+    content:"";
+    width: 46px;
+    margin-top: 9px;
+    margin-left: -41px;
+    border-top: 1px solid #b7b5be;
+}

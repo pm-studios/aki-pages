@@ -1,0 +1,34 @@
+.tag {
+	width: auto;
+}
+
+.tag .tag-container {
+	width: 598px;
+	height: auto;
+	margin: 16px 0 16px 0;
+}
+
+.tag .tag-container .tags span {
+	color: #1496be;
+	text-transform: capitalize;
+}
+
+.tag .tag-container .tags a {
+	color: #1496be;
+}
+
+.tag .tag-container .tags a:link {
+	text-decoration: none;
+}
+  
+.tag .tag-container .tags a:visited {
+	text-decoration: none;
+}
+  
+.tag .tag-container .tags a:hover {
+	text-decoration: underline;
+}
+  
+.tag .tag-container .tags a:active {
+	text-decoration: none;
+}
