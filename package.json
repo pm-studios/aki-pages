@@ -1,8 +1,10 @@
 {
   "name": "aki_web",
   "version": "0.1.0",
+  "homepage": "https://pm-studios.github.io/aki-pages/",
   "private": true,
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "history": "^4.7.2",
     "moment": "^2.24.0",
     "query-string": "^6.2.0",
@@ -24,7 +26,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

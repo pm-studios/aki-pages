@@ -15,27 +15,27 @@ export class Feature extends Component {
 
     switch (feature) {
       case 1:
-        imgSrc = "/images/feature_single.svg";
+        imgSrc = "/aki-pages/images/feature_single.svg";
         title = "Single Player"
         break;
 
       case 2:
-        imgSrc = "/images/feature_local.svg";
+        imgSrc = "/aki-pages/images/feature_local.svg";
         title = "Local Multi Player"
         break;
         
       case 3:
-        imgSrc = "/images/feature_online.svg";
+        imgSrc = "/aki-pages/images/feature_online.svg";
         title = "Online Multi Player"
         break;
         
       case 4:
-        imgSrc = "/images/feature_pvp.svg";
+        imgSrc = "/aki-pages/images/feature_pvp.svg";
         title = "PvP"
         break;
         
       case 5:
-        imgSrc = "/images/feature_controller.svg";
+        imgSrc = "/aki-pages/images/feature_controller.svg";
         title = "Controller Support"
 			  break;
 		}

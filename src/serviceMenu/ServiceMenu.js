@@ -14,11 +14,15 @@ class ServiceMenu extends Component {
     switch (name)
     {
       case "eyeq":
-        window.location.assign('http://54.200.127.93:3000/');
+        window.location.assign('https://pm-studios.github.io/eyeq-pages');
         break;
 
       case "aki":
-        window.location.assign('http://18.237.108.203:3000/');
+        window.location.assign('https://pm-studios.github.io/aki-pages');
+        break;
+
+      case "mineral":
+        window.location.assign('https://pm-studios.github.io/mineral-pages');
         break;
     }
 
@@ -34,6 +38,7 @@ class ServiceMenu extends Component {
             <ServiceMenuItem name="eyeq" title="EyeQ" desc="Playgroundz Game Database" onItemClick={this.handleChangedMenu} />
             <ServiceMenuItem name="navi" title="Navi" desc="Playgroundz Game Navigation" onItemClick={this.handleChangedMenu} />
             <ServiceMenuItem name="aki" title="Aki" desc="Playgroundz Game Store" onItemClick={this.handleChangedMenu} />
+            <ServiceMenuItem name="mineral" title="Mineral" desc="Playgroundz Crowdfunding" onItemClick={this.handleChangedMenu} />
             <ServiceMenuItem name="wallet" title="Wallet" desc="Playgroundz IOG Wallet" onItemClick={this.handleChangedMenu} />
           </div>
         </div>
@@ -53,7 +58,7 @@ class ServiceMenuItem extends Component {
     return (
       <div className={styleName} onClick={this.handleClick}>
         <div className="vertical-center">
-          <img src={'/images/logo_' + this.props.name + '.svg'} alt='icon' />
+          <img src={'/aki-pages/images/logo_' + this.props.name + '.svg'} alt='icon' />
         </div>
         <div className="vertical-center padding-l-8">
           <h1>{this.props.title}</h1>

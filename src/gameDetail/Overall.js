@@ -14,7 +14,7 @@ export class Overall extends Component {
       <div className="overall2">
         <h2>Overall Reviews</h2>
         <div className="overall-container">
-          <img src={'/images/overall_rating.svg'} />
+          <img src={'/aki-pages/images/overall_rating.svg'} />
           <div className="padding-l-16 vertical-center">
             <h1>4.5</h1>
           </div>

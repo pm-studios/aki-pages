@@ -67,7 +67,7 @@ class Signin extends Component {
           <div className="container" >
             <h1>Welcome to</h1>
             <div className="logo">
-              <img src={'/images/playgroundz_logo.svg'} alt='Playgroundz' />
+              <img src={'/aki-pages/images/playgroundz_logo.svg'} alt='Playgroundz' />
             </div>
             <form>
               <input type="email" name="username" placeholder="Email" onChange={this.handleChange.bind(this)} onKeyPress={this.handleKeyPress.bind(this)} maxLength="50" required />
@@ -77,7 +77,7 @@ class Signin extends Component {
               </div>
             </form>
             <div onClick={this.props.onClose} className="close">
-              <img src={'/images/popup_close.svg'} alt='Playgroundz' />
+              <img src={'/aki-pages/images/popup_close.svg'} alt='Playgroundz' />
             </div>
             <div className="sign_up">
               <p>Don't you have an account yet? <a href='#' onClick={this.handleSignup}>Sign Up</a></p>

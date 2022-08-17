@@ -85,12 +85,12 @@ export class GameDetail extends Component {
               
               <div className="website padding-t-16 horizontal-direction" >
                 <a href="" target="_blank" className="vertical-center"> Official Website</a>
-                <a href="" target="_blank"><img src={'/images/icon_link.svg'} /></a>
+                <a href="" target="_blank"><img src={'/aki-pages/images/icon_link.svg'} /></a>
               </div>
 
               <div className="padding-t-16" >
-                <img src={'/images/ESRB_Everyone.svg'} />
-                <img src={'/images/PEGI_12.svg'} className="padding-l-16"/>
+                <img src={'/aki-pages/images/ESRB_Everyone.svg'} />
+                <img src={'/aki-pages/images/PEGI_12.svg'} className="padding-l-16"/>
               </div>
 
               <Tag game={game} />

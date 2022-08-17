@@ -45,11 +45,11 @@ class Purchase extends Component {
               <h2>SELECT PAYMENT TYPE</h2>
               <div className="horizontal-direction">
               <div className="item horizontal-center">
-                <img src={'/images/icon_purchase_card.svg'} alt='card' />
+                <img src={'/aki-pages/images/icon_purchase_card.svg'} alt='card' />
                 <p className="vertical-center">Credit Card</p>
               </div>
               <div className="item horizontal-center">
-                <img src={'/images/icon_purchase_paypal.svg'} alt='paypal' />
+                <img src={'/aki-pages/images/icon_purchase_paypal.svg'} alt='paypal' />
                 <p className="vertical-center">PayPal</p>
               </div>
               </div>

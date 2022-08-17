@@ -27,8 +27,6 @@ export class Review extends Component {
         <div>
           <ReviewCell />
           <ReviewCell />
-          <ReviewCell />
-          <ReviewCell />
         </div>
 
         <div className="center padding-t-16 padding-b-40">

@@ -20,7 +20,7 @@ export default class PreviewHover extends Component {
               height='140px' 
               playing />
             <div className="ph-bottomInfo horizontal-direction">
-                <img src={'/images/overall_rating.svg'} />
+                <img src={'/aki-pages/images/overall_rating.svg'} />
                 <div className="padding-l-8 vertical-center">
                     <h1>4.5</h1>
                 </div>

@@ -108,8 +108,9 @@
 }
 
 .header .container .menu .service img {
-	width: 24px;
-	height: 18px;
+	width: 40px;
+	height: 40px;
+	margin: -10px 0;
 }
 
 .header .container .menu .currency {

@@ -92,10 +92,10 @@ export class Header extends Component {
 			<div className="header">
 				<div className="container">
 					<div className="logo">
-						<Link to={'/'}><img src={'/images/aki_logo.png'} alt='Aki' /></Link>
+						<Link to={'/'}><img src={'/aki-pages/images/aki_logo.png'} alt='Aki' /></Link>
 					</div>
 					<div className="search">
-						<img src={'/images/search.svg'} />
+						<img src={'/aki-pages/images/search.svg'} />
 						<input type="search" name="search" placeholder="Search" />
 					</div>
 					<div className="menu">
@@ -104,12 +104,12 @@ export class Header extends Component {
 							<p>{logged ? username+' is Logout..' : 'Sign In'}</p>
 						</div>
 						<div className="service" onClick={this.handleOpenServiceMenu} >
-							<img src={'/images/icon_main_menu.svg'} />
+							<img src={'/aki-pages/images/icon_service_menu.svg'} />
 						</div>
 						<div className="currency" onClick={this.handleChangeCurrency} >
 							{this.state.currency === 0 ? 
-							<img src={'/images/icon_usd.png'} /> : 
-							<img src={'/images/icon_iog.svg'} />}
+							<img src={'/aki-pages/images/icon_usd.png'} /> : 
+							<img src={'/aki-pages/images/icon_iog.svg'} />}
 						</div>
 					</div>
 				</div>

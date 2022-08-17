@@ -73,8 +73,13 @@
     opacity: 1.0;
 }
 
-.serviceMenu .container .wallet:hover {
+.serviceMenu .container .mineral:hover {
     background-color: #fedcdc;
+    opacity: 1.0;
+}
+
+.serviceMenu .container .wallet:hover {
+    background-color: #e6e6e6;
     opacity: 1.0;
 }
 
